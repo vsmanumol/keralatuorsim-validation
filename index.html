@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link  rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--animated bootstrap css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body>
+<!--NAV START-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">  
+      <div>
+        <a href="#"><img src="img/logo.JPG" alt="logo"></a>
+    </div>   
+      </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#" style="margin-top: 10px;"></a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-left">
+            <li>
+              <a href="sinup.html"><span class="glyphicon glyphicon-user signin img-fluid wow zoomIn">
+             </span> Sign UP</a></li>
+              
+            
+            </li>
+           
+            <li>
+              <a href="sinin.html"><span class="glyphicon glyphicon-user signin img-fluid wow zoomIn">
+             </span> Sign In</a></li>
+              
+            
+            </li>
+          </ul>
+  </div>
+  
+</nav>
+ 
+</div>
+<!--END NAVBAR--> 
+<div class="container">
+     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/slider-img/s1.jpg"   class="img-fluid animated fadeInDown" alt="Los Angeles"  style="width:100%;height:550px;">
+      </div>
+
+      <div class="item">
+        <img src="img/slider-img/s2.jpg" alt="New york" class="img-fluid animated fadeInDown" style="width:100%;height:550px;">
+      </div>
+    
+      <div class="item">
+        <img src="img/slider-img/s3.jpg" alt="New york" class="img-fluid animated fadeInDown"  style="width:100%;height:550px;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+  <!--footer-->
+  <footer id="mobile-footer">
+    <div id="mobile-menu">
+      <div id="mobile-footer-container">
+        <div class="mobile-link">
+          <a href="#" class="text-center"></a>
+        </div>
+        <div class="mobile-link">
+          <a href="#" class="text-center"></a>
+        </div>
+        <div class="mobile-link">
+          <a href="#" class="text-center"></a>
+        </div>
+      </div>
+    </div>
+    
+      
+  </footer>
+
+<!--end of footer-->
+</div>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+  </script>
+  <script>
+    var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+    resetAnimation: true,     // reset animation on end (default is true)
+  }
+);
+wow.init();
+  </script>
+  
+</body>
+
+</html>
